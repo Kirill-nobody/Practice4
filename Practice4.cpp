@@ -15,7 +15,7 @@ int main()
     int sizecounter=0;//1
     vector<string> ValueKeeper;//1
     fstream fs;//1
-    fs.open("Практика.txt", fstream::in|fstream::out);// 2
+    fs.open("Практика.txt", fstream::in|fstream::out);//2
     if (!fs.is_open())//3
     {
         cout << "Труба с файлом";//4
